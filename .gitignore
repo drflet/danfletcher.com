@@ -1,3 +1,5 @@
 
 *.zip
-/wp-content/
+/wp-content/plugins
+/wp-content/uploads
+*.espressostorage
