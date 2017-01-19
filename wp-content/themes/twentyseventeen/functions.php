@@ -564,3 +564,9 @@ require get_parent_theme_file_path( '/inc/customizer.php' );
  * SVG icons functions and filters.
  */
 require get_parent_theme_file_path( '/inc/icon-functions.php' );
+
+function my_myme_types($mime_types){
+    $mime_types['apk'] = 'application/vnd.android.package-archive'; //Adding svg extension
+    return $mime_types;
+}
+add_filter('upload_mimes', 'my_myme_types', 1, 1);
