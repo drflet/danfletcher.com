@@ -1,5 +1,9 @@
-
+wp-config.php
 *.zip
+<<<<<<< HEAD
 /wp-content/plugins
 /wp-content/uploads
 *.espressostorage
+=======
+/wp-content/uploads/
+>>>>>>> origin/master
